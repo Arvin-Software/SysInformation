@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{35478379-A0F8-4858-BD3B-9782CE55DBB9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Sys_Information_8._0.My.MyApplication</StartupObject>
+    <RootNamespace>Sys_Information_8._0</RootNamespace>
+    <AssemblyName>Sys Information 8.1</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Sys Information 8.1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Sys Information 8.1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DocumentationFile>Sys Information 8.1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\Sys Information 8.0.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DocumentationFile>Sys Information 8.1.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\Sys Information 8.0.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Sys Information v8.1 metro.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\ClsWMI.vb" />
+    <Compile Include="Classes\Graph.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Classes\Misc.vb" />
+    <Compile Include="Forms\AboutBox.Designer.vb">
+      <DependentUpon>AboutBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AboutBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CrashBox.Designer.vb">
+      <DependentUpon>CrashBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CrashBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\HrdDiskAdv.Designer.vb">
+      <DependentUpon>HrdDiskAdv.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\HrdDiskAdv.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main.Designer.vb">
+      <DependentUpon>Main.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MemAdv.Designer.vb">
+      <DependentUpon>MemAdv.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MemAdv.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ReportCreation.Designer.vb">
+      <DependentUpon>ReportCreation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ReportCreation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Settings.Designer.vb">
+      <DependentUpon>Settings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Settings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Splash.Designer.vb">
+      <DependentUpon>Splash.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Splash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="User Controls\Battery.Designer.vb">
+      <DependentUpon>Battery.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User Controls\Battery.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Controls\GraphicCard.Designer.vb">
+      <DependentUpon>GraphicCard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User Controls\GraphicCard.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Controls\InstalledSoftwares.Designer.vb">
+      <DependentUpon>InstalledSoftwares.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User Controls\InstalledSoftwares.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Controls\Memory.Designer.vb">
+      <DependentUpon>Memory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User Controls\Memory.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Controls\Motherboard.Designer.vb">
+      <DependentUpon>Motherboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User Controls\Motherboard.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Controls\Networke.Designer.vb">
+      <DependentUpon>Networke.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User Controls\Networke.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Controls\Operating System.Designer.vb">
+      <DependentUpon>Operating System.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User Controls\Operating System.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Controls\Overview.Designer.vb">
+      <DependentUpon>Overview.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User Controls\Overview.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Controls\peripherals.Designer.vb">
+      <DependentUpon>peripherals.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User Controls\peripherals.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Controls\Processor.Designer.vb">
+      <DependentUpon>Processor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User Controls\Processor.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Controls\StorageDevices.Designer.vb">
+      <DependentUpon>StorageDevices.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User Controls\StorageDevices.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\AboutBox.resx">
+      <DependentUpon>AboutBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CrashBox.resx">
+      <DependentUpon>CrashBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\HrdDiskAdv.resx">
+      <DependentUpon>HrdDiskAdv.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main.resx">
+      <DependentUpon>Main.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MemAdv.resx">
+      <DependentUpon>MemAdv.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ReportCreation.resx">
+      <DependentUpon>ReportCreation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Settings.resx">
+      <DependentUpon>Settings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Splash.resx">
+      <DependentUpon>Splash.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Controls\Battery.resx">
+      <DependentUpon>Battery.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Controls\GraphicCard.resx">
+      <DependentUpon>GraphicCard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Controls\InstalledSoftwares.resx">
+      <DependentUpon>InstalledSoftwares.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Controls\Memory.resx">
+      <DependentUpon>Memory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Controls\Motherboard.resx">
+      <DependentUpon>Motherboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Controls\Networke.resx">
+      <DependentUpon>Networke.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Controls\Operating System.resx">
+      <DependentUpon>Operating System.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Controls\Overview.resx">
+      <DependentUpon>Overview.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Controls\peripherals.resx">
+      <DependentUpon>peripherals.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Controls\Processor.resx">
+      <DependentUpon>Processor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Controls\StorageDevices.resx">
+      <DependentUpon>StorageDevices.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sys Information splash11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1358976484_browser.png" />
+    <None Include="Resources\1358976246_netscape.png" />
+    <None Include="Resources\1419209182_system-installer-32.png" />
+    <Content Include="Sys Information metro alt.ico" />
+    <Content Include="Sys Information metro.ico" />
+    <Content Include="Sys Information v8.1 metro.ico" />
+    <Content Include="Sys Information.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\enumSoftware\enumSoftware.vbproj">
+      <Project>{B130C5D3-E1C0-4A51-B5B9-EE56D02922DB}</Project>
+      <Name>enumSoftware</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

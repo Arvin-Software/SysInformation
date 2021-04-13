@@ -1,0 +1,38 @@
+E:\Sys Optimizer v 1.0\enumSoftware\bin\Debug\enumSoftware.dll
+E:\Sys Optimizer v 1.0\enumSoftware\bin\Debug\enumSoftware.pdb
+E:\Sys Optimizer v 1.0\enumSoftware\bin\Debug\enumSoftware.xml
+E:\Sys Optimizer v 1.0\enumSoftware\obj\Debug\ResolveAssemblyReference.cache
+E:\Sys Optimizer v 1.0\enumSoftware\obj\Debug\enumSoftware.Resources.resources
+E:\Sys Optimizer v 1.0\enumSoftware\obj\Debug\ResGen.read.1.tlog
+E:\Sys Optimizer v 1.0\enumSoftware\obj\Debug\ResGen.write.1.tlog
+E:\Sys Optimizer v 1.0\enumSoftware\obj\Debug\enumSoftware.dll
+E:\Sys Optimizer v 1.0\enumSoftware\obj\Debug\enumSoftware.xml
+E:\Sys Optimizer v 1.0\enumSoftware\obj\Debug\enumSoftware.pdb
+E:\Sys Information 7.0\enumSoftware\bin\Debug\enumSoftware.dll
+E:\Sys Information 7.0\enumSoftware\bin\Debug\enumSoftware.pdb
+E:\Sys Information 7.0\enumSoftware\bin\Debug\enumSoftware.xml
+E:\Sys Information 7.0\enumSoftware\obj\Debug\ResolveAssemblyReference.cache
+E:\Sys Information 7.0\enumSoftware\obj\Debug\enumSoftware.Resources.resources
+E:\Sys Information 7.0\enumSoftware\obj\Debug\ResGen.read.1.tlog
+E:\Sys Information 7.0\enumSoftware\obj\Debug\ResGen.write.1.tlog
+E:\Sys Information 7.0\enumSoftware\obj\Debug\enumSoftware.dll
+E:\Sys Information 7.0\enumSoftware\obj\Debug\enumSoftware.xml
+E:\Sys Information 7.0\enumSoftware\obj\Debug\enumSoftware.pdb
+H:\Arvin Soft Projets\Sys Information 8.0\enumSoftware\bin\Debug\enumSoftware.dll
+H:\Arvin Soft Projets\Sys Information 8.0\enumSoftware\bin\Debug\enumSoftware.pdb
+H:\Arvin Soft Projets\Sys Information 8.0\enumSoftware\bin\Debug\enumSoftware.xml
+H:\Arvin Soft Projets\Sys Information 8.0\enumSoftware\obj\Debug\ResolveAssemblyReference.cache
+H:\Arvin Soft Projets\Sys Information 8.0\enumSoftware\obj\Debug\enumSoftware.Resources.resources
+H:\Arvin Soft Projets\Sys Information 8.0\enumSoftware\obj\Debug\ResGen.read.1.tlog
+H:\Arvin Soft Projets\Sys Information 8.0\enumSoftware\obj\Debug\ResGen.write.1.tlog
+H:\Arvin Soft Projets\Sys Information 8.0\enumSoftware\obj\Debug\enumSoftware.dll
+H:\Arvin Soft Projets\Sys Information 8.0\enumSoftware\obj\Debug\enumSoftware.xml
+H:\Arvin Soft Projets\Sys Information 8.0\enumSoftware\obj\Debug\enumSoftware.pdb
+G:\111\Arvin Soft Projets\Sys Information 8.0\enumSoftware\bin\Debug\enumSoftware.dll
+G:\111\Arvin Soft Projets\Sys Information 8.0\enumSoftware\bin\Debug\enumSoftware.pdb
+G:\111\Arvin Soft Projets\Sys Information 8.0\enumSoftware\bin\Debug\enumSoftware.xml
+G:\111\Arvin Soft Projets\Sys Information 8.0\enumSoftware\obj\Debug\enumSoftware.Resources.resources
+G:\111\Arvin Soft Projets\Sys Information 8.0\enumSoftware\obj\Debug\enumSoftware.vbproj.GenerateResource.Cache
+G:\111\Arvin Soft Projets\Sys Information 8.0\enumSoftware\obj\Debug\enumSoftware.dll
+G:\111\Arvin Soft Projets\Sys Information 8.0\enumSoftware\obj\Debug\enumSoftware.xml
+G:\111\Arvin Soft Projets\Sys Information 8.0\enumSoftware\obj\Debug\enumSoftware.pdb
